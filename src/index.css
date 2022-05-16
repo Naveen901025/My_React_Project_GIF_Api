@@ -1,0 +1,19 @@
+body{
+  background-color:black;
+  margin: 20px;
+}
+.gifs {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gif {
+  padding: 0 2px;
+}
+
+.loading{
+  color:rgb(16, 211, 236);
+  margin-top: 150px;
+}
