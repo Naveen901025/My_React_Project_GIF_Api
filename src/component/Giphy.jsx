@@ -31,7 +31,7 @@ const Giphy = () => {
     setIsLoding(true);
 
     try{
-      const results = await axios("http://api.giphy.com/v1/gifs/search" ,{
+      const results = await axios("https://api.giphy.com/v1/gifs/search" ,{
         params:{
           api_key:"wQmOPslZoBFVp5ZrOVxYiaQfTKrXojY4",
             q: search,
